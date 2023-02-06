@@ -1,0 +1,173 @@
+@font-face {
+    font-family: Stanley;
+    src: url("/fonts/Stanley.ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("/fonts/Montserrat-Black.ttf");
+}
+
+@font-face {
+    font-family: Archia;
+    src: url("/fonts/archia-regular-webfont.ttf");
+}
+
+
+/* main styles */
+
+html, body {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    color: black;
+    background-color: #314455;
+    font-family: Montserrat;
+    margin: 3px;
+    margin-left: 20px;
+    z-index: -100;
+}
+
+h1 {
+    color: #C96567;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 
+                 0 1px 0 #000, -1px 0 0 #000;
+}
+
+h1#princip {
+    font-size: 5.5em;
+    padding: 20px;
+}
+
+h1#design {
+    font-family: Stanley;
+    font-size: 6.5em;
+    line-height: 140px;
+    padding: 10px;
+    margin-top: 25%;
+    margin-left: 30%;
+}
+
+.principle {
+    position: absolute;
+    background-color: #D8D8D8;
+    padding: 20px;
+    font-family: Archia;
+    font-size: 1em;
+    line-height: 20px;
+    box-shadow: 1px 0 0 #000, 0 -1px 0 #000, 
+                0 1px 0 #000, -1px 0 0 #000;
+}
+
+
+h2{ 
+    display: inline;
+    font-family: Montserrat;
+    font-size: 1.7em;
+}
+
+p {
+    display: inline;
+}
+
+
+/* contrast */
+
+#contrast {
+    margin-top: 1.5%;
+    margin-right: 2%;
+    margin-left: 45%;
+    width: 45%;
+}
+
+.hoverImgC {
+    position: relative;
+}
+
+.hoverImgC img {
+    display:none; 
+    transform: translate(-50%, -15%);
+}
+
+.hoverImgC:hover img { 
+    position: absolute;
+    display:block;
+    border: 50px solid rgba(1,1,1,0.3);
+    z-index: 2001;
+}
+
+
+/* repetition */
+
+#repetition {
+    margin-top: 12%;
+    margin-left: 35%;
+    width: 55%;
+}
+
+.hoverImgR {
+    position: relative;
+}
+
+.hoverImgR img {
+    display:none; 
+    transform: translate(-25%, -40%);
+}
+
+.hoverImgR:hover img { 
+    position: absolute;
+    display:block;
+    border: 50px solid rgba(1,1,1,0.3);
+    z-index: 2002;
+}
+
+
+/* alignment */
+
+#alignment {
+    margin-top: 24%;
+    width: 60%;
+}
+
+.hoverImgA {
+    position: relative;
+}
+
+.hoverImgA img {
+    display:none; 
+    transform: translate(60%, -70%);
+}
+
+.hoverImgA:hover img { 
+    position: absolute;
+    display:block;
+    border: 50px solid rgba(1,1,1,0.3);
+    z-index: 2003;
+}
+
+
+/* proximity */
+
+#proximity {
+    margin-top: 34%;
+    width: 45%;
+}
+
+.hoverImgP {
+    position: relative;
+}
+
+.hoverImgP img {
+    display:none; 
+    scale:calc(0.7);
+    transform: translate(50%, -125%);
+}
+
+.hoverImgP:hover img { 
+    position: absolute;
+    display:block;
+    border: 50px solid rgba(1,1,1,0.3);
+    z-index: 2004;
+}
+
+
